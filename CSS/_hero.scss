@@ -1,0 +1,98 @@
+.welcome {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 1rem 0 1rem;
+  color: #4a4a4a;
+}
+.heroContent {
+  display: flex;
+  width: 100%;
+  margin: 0 2rem;
+  width: 100%;
+  height: 100%;
+  gap: 1rem;
+
+  //   align-items: flex-end;
+  &__mainContent {
+    width: 48%;
+
+    background-image: url("/images/_123208087_gettyimages-563976885.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__heroText {
+    position: relative;
+    color: #ffffff;
+
+    h1 {
+      position: absolute;
+      top: 17rem;
+      left: 1rem;
+      font-weight: bold;
+    }
+    p {
+      position: absolute;
+      top: 21.5rem;
+      left: 1rem;
+    }
+    span {
+      position: absolute;
+      top: 26rem;
+      left: 1rem;
+    }
+  }
+  &__sideContent {
+    display: flex;
+    width: 48%;
+    height: 100%;
+    flex-flow: row wrap;
+  }
+  &__sideContentDiv {
+    // height: 25%;
+    flex-basis: 50%;
+    // width: 50%;
+  }
+  &__sideImageOne {
+    background-image: url("/images/_123138791_gettyimages-1238164491.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    margin-bottom: 1rem;
+    margin-right: 0.3rem;
+  }
+  &__sideImageTwo {
+    background-image: url("/images/_123026707_russia_troops_index_976_2-nc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 15rem;
+  }
+  &__sideImageThree {
+    background-image: url("/images/_123249197_b560cbaf-7243-4fb7-ad99-85180ba44ee6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    margin-right: 0.3rem;
+  }
+  &__sideImageFour {
+    background-image: url("/images/_123150973_binos.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+  }
+  &__sideText {
+    color: #ffffff;
+    position: relative;
+    h3 {
+      position: absolute;
+      top: 10rem;
+      left: 1rem;
+    }
+    span {
+      position: absolute;
+      top: 13rem;
+      left: 1rem;
+    }
+  }
+}
