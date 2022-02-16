@@ -16,7 +16,7 @@
   &__mainContent {
     width: 48%;
 
-    background-image: url("/images/_123208087_gettyimages-563976885.jpg");
+    background: url("../images/_123208087_gettyimages-563976885.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -54,7 +54,7 @@
     // width: 50%;
   }
   &__sideImageOne {
-    background-image: url("/images/_123138791_gettyimages-1238164491.jpg");
+    background-image: url("../images/_123138791_gettyimages-1238164491.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
@@ -62,21 +62,21 @@
     margin-right: 0.3rem;
   }
   &__sideImageTwo {
-    background-image: url("/images/_123026707_russia_troops_index_976_2-nc.png");
+    background-image: url("../images/_123026707_russia_troops_index_976_2-nc.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
     height: 15rem;
   }
   &__sideImageThree {
-    background-image: url("/images/_123249197_b560cbaf-7243-4fb7-ad99-85180ba44ee6.jpg");
+    background-image: url("../images/_123249197_b560cbaf-7243-4fb7-ad99-85180ba44ee6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
     margin-right: 0.3rem;
   }
   &__sideImageFour {
-    background-image: url("/images/_123150973_binos.jpg");
+    background-image: url("../images/_123150973_binos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
@@ -92,7 +92,6 @@
     span {
       position: absolute;
       top: 13rem;
-      left: 1rem;
     }
   }
 }
